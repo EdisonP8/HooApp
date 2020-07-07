@@ -9,9 +9,23 @@ class LoginPage(Base):
     启动页+登录界面的页面元素
     """
     # ck_skip = (By.XPATH, "//android.widget.TextView[@text='跳过' and @index='1']") # 点击启动页跳过
-    ck_skip = (By.ID, "tv_skip") # 点击启动页跳过
-    ck_login_register_button = (By.XPATH, "//android.widget.TextView[@text='登录 / 注册' and @index='1']")  # 首页点击登录/注册按钮
-    # ck_login_register_button = (By.ID, "iv_5")  # 首页点击登录/注册按钮
+    ck_skip = (By.ID, "com.hufu.qianbao:id/tv_skip") # 点击启动页跳过
+    # ck_login_register_button = (By.XPATH, "//android.widget.TextView[@text='登录/注册' and @index='1']")  # 首页点击登录/注册按钮
+    ck_login_register_button = (By.ID, "tv_login_register")  # 首页点击登录/注册按钮
+
+    def getinto_login_page(self,text='跳过'):
+        """进入登录页面"""
+        time.sleep(2)
+        print(self.findElement(text))
+        text_loc = ("xpath", ".//*[contains(.,'%s')]" % text)
+        self.driver.find_element(*text_loc).click()
+        self.driver.find_element(*text_loc).click()
+        # self.driver.find_element(*self.ck_skip).click()
+        WebDriverWait(self.driver, 10, 0.5).until(
+            EC.text_to_be_present_in_element(self.ck_login_register_button, u"登录/注册"))
+        self.driver.find_element(*self.ck_login_register_button).click()
+        time.sleep(2)
+
 
     # 手机登录 # 邮箱登录
     switch_mode_email = (By.ID, "tv_email")  # 切换邮箱注册
@@ -35,21 +49,6 @@ class LoginPage(Base):
     # 忘记密码流程
     ck_Forgot_password = (By.ID, "tv_forget_pwd")  # 点击忘记密码
     ipt_login_comfirm_pwd = (By.ID, "et_input_pwd2")  # 再次输入登录密码
-
-    def getinto_login_page(self):
-        """进入登录页面"""
-        time.sleep(2)
-        for i in range(2):
-            loc = ("xpath", "//*[@text='跳过']")
-            try:
-                e = WebDriverWait(self.driver, 1, 0.5).until(EC.presence_of_element_located(loc))
-                e.click()
-            except:
-                WebDriverWait(self.driver, 10, 0.5).until(
-                    EC.text_to_be_present_in_element(self.ck_login_register_button, u"登录 / 注册"))
-                self.driver.find_element(*self.ck_login_register_button).click()
-                time.sleep(2)
-
 
 
     def login_by_Email(self, email):

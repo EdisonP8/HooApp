@@ -1,4 +1,4 @@
-﻿import subprocess,time,os,re
+﻿import os
 from libs.ShareModules import Getdata
 
 app = Getdata('app_info','app')
@@ -28,7 +28,7 @@ class Android:
         return devicelist
 
     @property
-    def get_app_name(self) -> str:
+    def get_app_name(self):
         """获取待测目标app的包名"""
 
         with os.popen(f'adb shell "pm list packages | grep {self.app}"', 'r') as f:
@@ -41,7 +41,7 @@ class Android:
         return app_name
 
     @property
-    def get_device_version(self) -> str:
+    def get_device_version(self):
         """获取安卓版本"""
 
         with os.popen('adb shell getprop ro.build.version.release', 'r') as f:
@@ -50,7 +50,7 @@ class Android:
         return app_version
 
     @property
-    def get_app_Activity(self) -> str:
+    def get_app_Activity(self):
         """获取app的启动页Activity"""
         app_activity = ".activitys.SplashActivity"
         #
@@ -82,4 +82,4 @@ class setup_method():
                        }
 
 if __name__ == '__main__':
-    print(Android.get_app_name)
+    print(Android.get_app_Activity)

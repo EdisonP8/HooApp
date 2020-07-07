@@ -13,7 +13,7 @@ class TestRigister:
     注册的测试用例
     """
     def setup_method(self):
-        setup_method.android_driver_caps["noReset"] = False
+        # setup_method.android_driver_caps["noReset"] = False
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', setup_method.android_driver_caps)  # 串联
         self.register_page = registerPage(self.driver)  # 初始化登录页元素以及方法
         time.sleep(5)  # 等待初始化完成

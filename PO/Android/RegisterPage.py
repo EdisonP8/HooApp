@@ -10,7 +10,7 @@ class registerPage(Base):
     """
 
     # ck_login_register_button = (By.ID, "tv_login_register")  # 首页点击登录/注册按钮
-    ck_login_register_button = (By.ID, "ll_5")  # 首页点击登录/注册按钮
+    ck_login_register_button = (By.ID, "ll_recharge")  # 首页点击登录/注册按钮
     ck_register = (By.XPATH,"//android.widget.TextView[@text='立即注册']") # 点击立即注册
 
     # 手机注册 # 邮箱注册
@@ -36,9 +36,6 @@ class registerPage(Base):
 
     def getinto_register_page(self):
         """进入注册页面"""
-        # WebDriverWait(self.driver, 10, 0.5).until(
-        #     # EC.text_to_be_present_in_element(self.ck_login_register_button, u"登录 / 注册"))
-        #     EC.text_to_be_present_in_element(self.ck_login_register_button, u"我"))
         self.driver.find_element(*self.ck_login_register_button).click()
         time.sleep(2)
         self.driver.find_element(*self.ck_register).click()
