@@ -27,67 +27,68 @@ class TestLogin:
         try:
             self.login_page.getinto_login_page()
             self.login_page.login_by_Email(email)
-            self.login_page.input_loginpwd_in(code,loginpwd)
+            self.login_page.input_loginpwd_in(loginpwd,code)
             msg = self.login_page.verify_login_success()  # 断言登录成功后弹窗文本,前往安全中心
             assert msg == self.login_page.verify_login_success()
         except (Exception, AssertionError):
             self.login_page.Allure_save_img("001_login_by_email_fail")
             raise Exception
 
-    # def test_002_login_by_mobile(self):
-    #     '''
-    #     用例二: 手机号码密码登陆
-    #     '''
-    #     try:
-    #         self.login_page.getinto_login_page()
-    #         self.login_page.login_by_Mobile(mobile)
-    #         self.login_page.input_loginpwd_in(code, loginpwd)
-    #         msg = self.login_page.verify_login_success()
-    #         assert msg == self.login_page.verify_login_success()
-    #     except (Exception, AssertionError):
-    #         self.login_page.Allure_save_img("002_login_by_mobile_fail")
-    #         raise Exception
-    #
-    # def test_003_login_by_mobile_verify(self):
-    #     '''
-    #     用例三: 手机号码验证码登陆
-    #     '''
-    #     try:
-    #         self.login_page.getinto_login_page()
-    #         self.login_page.login_by_Mobile_verify(mobile,code)
-    #         msg = self.login_page.verify_login_success()
-    #         assert msg == self.login_page.verify_login_success()
-    #     except (Exception, AssertionError):
-    #         self.login_page.Allure_save_img("003_login_by_mobile_verify_fail")
-    #         raise Exception
-    #
-    # def test_004_Email_Forgot_password(self):
-    #     '''
-    #     用例四: 单邮箱忘记密码
-    #     '''
-    #     try:
-    #         self.login_page.getinto_login_page()
-    #         msg = self.login_page.Email_Forgot_password(email,code,loginpwd)
-    #         assert msg == True
-    #     except (Exception, AssertionError):
-    #         self.login_page.Allure_save_img("004_Email_Forgot_password_fail")
-    #         raise Exception
-    #
-    # def test_005_Mobile_Forgot_password(self):
-    #     '''
-    #     用例五: 单手机忘记密码
-    #     '''
-    #     try:
-    #         self.login_page.getinto_login_page()
-    #         msg = self.login_page.Mobile_Forgot_password(mobile, code, loginpwd)
-    #         assert msg == True
-    #     except (Exception, AssertionError):
-    #         self.login_page.Allure_save_img("005_Mobile_Forgot_password_fail")
-    #         raise Exception
+    def test_002_login_by_mobile(self):
+        '''
+        用例二: 手机号码密码登陆
+        '''
+        try:
+            self.login_page.getinto_login_page()
+            self.login_page.login_by_Mobile(mobile)
+            self.login_page.input_loginpwd_in(loginpwd,code)
+            msg = self.login_page.verify_login_success()
+            assert msg == self.login_page.verify_login_success()
+        except (Exception, AssertionError):
+            self.login_page.Allure_save_img("002_login_by_mobile_fail")
+            raise Exception
+
+    def test_003_login_by_mobile_verify(self):
+        '''
+        用例三: 手机号码验证码登陆
+        '''
+        try:
+            self.login_page.getinto_login_page()
+            self.login_page.login_by_Mobile_verify(mobile,code)
+            msg = self.login_page.verify_login_success()
+            assert msg == self.login_page.verify_login_success()
+        except (Exception, AssertionError):
+            self.login_page.Allure_save_img("003_login_by_mobile_verify_fail")
+            raise Exception
+
+    def test_004_Email_Forgot_password(self):
+        '''
+        用例四: 单邮箱忘记密码
+        '''
+        try:
+            self.login_page.getinto_login_page()
+            msg = self.login_page.Email_Forgot_password(email,code,loginpwd)
+            assert msg == True
+        except (Exception, AssertionError):
+            self.login_page.Allure_save_img("004_Email_Forgot_password_fail")
+            raise Exception
+
+    def test_005_Mobile_Forgot_password(self):
+        '''
+        用例五: 单手机忘记密码
+        '''
+        try:
+            self.login_page.getinto_login_page()
+            msg = self.login_page.Mobile_Forgot_password(mobile, code, loginpwd)
+            assert msg == True
+        except (Exception, AssertionError):
+            self.login_page.Allure_save_img("005_Mobile_Forgot_password_fail")
+            raise Exception
 
     def teardown_method(self):
         self.driver.quit()
 
 
 if __name__ == '__main__':
-    pytest.main(['-s','C:/Users/HP/Desktop/HooApp/Scripts/Android/B_Login_test.py::TestLogin::test_001_login_by_email'])
+    pytest.main(['-s','C:/Users/HP/Desktop/HooApp/Scripts/Android/B_Login_test.py'
+                      '::TestLogin::test_005_Mobile_Forgot_password'])

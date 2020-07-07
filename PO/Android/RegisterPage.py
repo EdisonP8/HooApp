@@ -1,16 +1,16 @@
 from PO.Base import Base
 from selenium.webdriver.common.by import By
+from PO.Android.LoginPage import LoginPage
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-class registerPage(Base):
+class registerPage(Base,LoginPage):
     """
     启动页+注册界面的页面元素
     """
 
-    # ck_login_register_button = (By.ID, "tv_login_register")  # 首页点击登录/注册按钮
-    ck_login_register_button = (By.ID, "ll_recharge")  # 首页点击登录/注册按钮
+    ck_login_register_button = (By.ID, "tv_login_register")  # 首页点击登录/注册按钮
     ck_register = (By.XPATH,"//android.widget.TextView[@text='立即注册']") # 点击立即注册
 
     # 手机注册 # 邮箱注册
@@ -36,7 +36,7 @@ class registerPage(Base):
 
     def getinto_register_page(self):
         """进入注册页面"""
-        self.driver.find_element(*self.ck_login_register_button).click()
+        self.getinto_login_page()
         time.sleep(2)
         self.driver.find_element(*self.ck_register).click()
         time.sleep(2)
