@@ -111,12 +111,14 @@ class Base():
         :return:
         """
         try:
-            toast_loc = ("xpath", ".//*[contains(@text,'%s')]" % text)
+            toast_loc = ("xpath", "//*[contains(@text,'%s')]" % text)
 
-            WebDriverWait(self.driver, 10, 0.2).until(
+            WebDriverWait(self.driver, 10, 0.1).until(
                 EC.presence_of_element_located(toast_loc))
+            print(self.driver.find_element(By.XPATH,toast_loc).text)
             return True
         except:
+            print('没有获取到toast信息')
             return False
 
     def click_text(self, text):

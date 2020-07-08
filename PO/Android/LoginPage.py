@@ -2,6 +2,7 @@ from PO.Base import Base
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
@@ -28,18 +29,16 @@ class LoginPage(Base):
 
     ck_login_btn = (By.ID, "bt_login")  # 点击登录
     ck_send_verify_code = (By.ID, "tv_miss_google_validation")  # 点击异常登录验证码
-    ipt_verify_code = (By.ID, "com.hufu.qianbao:id/tv_0")  # 输入异常登录验证码
+    ipt_verify_code = (By.ID, 'tv_0')  # 输入异常登录验证码
     get_login_success_txt = (By.ID, "tv_enter")  # 登录成功后弹窗文本，前往安全中心
 
     # 忘记密码流程
     ck_Forgot_password = (By.ID, "tv_forget_pwd")  # 点击忘记密码
     ipt_login_comfirm_pwd = (By.ID, "et_input_pwd2")  # 再次输入登录密码
 
-
-
     def getinto_login_page(self):
         """进入登录页面"""
-        time.sleep(5)
+        time.sleep(2)
         self.driver.find_element(*self.ck_skip).click()
         WebDriverWait(self.driver, 10, 0.5).until(
             EC.text_to_be_present_in_element(self.ck_login_register_button, u"登录/注册"))
@@ -68,11 +67,8 @@ class LoginPage(Base):
         time.sleep(1)
         self.driver.find_element(*self.ck_login_btn).click() #点击登陆
         time.sleep(1)
-        a = self.driver.find_element(self.ipt_verify_code)
         action_a = ActionChains(self.driver)
-        action_a.move_to_element(a).double_click().send_keys(code).perform()
-        # self.action_chains_send_keys(self.ipt_verify_code,code)  #输入异常验证码
-        # self.driver.find_element(*self.ipt_verify_code).send_keys(code) #输入异常验证码
+        action_a.move_to_element(self.driver.find_element(*self.ipt_verify_code)).click().send_keys(code).perform() #输入异常验证码
 
     def verify_login_success(self):
         """登登录成功后弹窗文本，前往安全中心"""
@@ -85,12 +81,13 @@ class LoginPage(Base):
 
         self.driver.find_element(*self.ck_verify_code).click()
         self.driver.find_element(*self.ipt_code).send_keys(code)
-        self.driver.find_element(*self.ck_login_btn).click()  # 点击登陆
-        time.sleep(2)
+        self.driver.find_element(*self.ck_login_btn).click()  # 点击下一步
+        time.sleep(1)
         self.driver.find_element(*self.ipt_login_pwd).send_keys(pwd)
+        time.sleep(1)
         self.driver.find_element(*self.ipt_login_comfirm_pwd).send_keys(pwd)
-        self.driver.find_element(*self.ck_login_btn).click()
-        return self.is_toast_exist('设置密码成功')
+        self.driver.find_element(*self.ck_login_btn).click()  # 点击完成
+        time.sleep(2)
         # return self.findElement('设置密码成功')
 
     def Email_Forgot_password(self,email,code,pwd):
