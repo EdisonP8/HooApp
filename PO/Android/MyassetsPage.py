@@ -30,7 +30,6 @@ class Myassets(Base):
     get_currency_name = (By.ID, "tv_bit_name")  # 获取币种名称
     get_receive_txt = (By.XPATH, "//android.widget.TextView[@text='扫描二维码进行充值']")  # 扫描二维码进行充值
 
-
     # 提现
     ck_withdrawal = (By.ID, "tv_send")  # 点击提现
     ipt_address =(By.ID, "et_address") # 输入提现地址
@@ -101,9 +100,7 @@ class Myassets(Base):
 
         self.driver.find_element(*self.ck_receive).click()
         time.sleep(2)
-        sself.driver.find_element(*self.ipt_currency_search).send_keys(symbol)
-        self.driver.find_element(*self.get_currency_name).click()
-        time.sleep(2)
+        self.input_currency_name(symbol)
         return self.driver.find_element(*self.get_receive_txt).text()
 
     def Assets_transfer(self,symbol,amount):
@@ -119,16 +116,17 @@ class Myassets(Base):
         time.sleep(2)
         return self.driver.find_element(*self.get_page_title).text()
 
-    def Assets_withdrawal(self,symbol,address,conut,code,pwd):
+    def Assets_withdrawal(self,symbol,address,quantity,code,Transaction_pwd):
         """提现"""
 
         self.driver.find_element(*self.ck_withdrawal).click()
         time.sleep(1)
         self.input_currency_name(symbol)
         self.driver.find_element(*self.ipt_address).send_keys(address)
-        self.driver.find_element(*self.ipt_conut).send_keys(conut)
+        self.driver.find_element(*self.ipt_conut).send_keys(quantity)
         time.sleep(2)
         self.driver.find_element(*self.ck_next_step).click()
         self.driver.find_element(*self.ipt_veritfy_code).send_keys(code)
-        self.driver.find_element(*self.ipt_transaction_pwd).send_keys(pwd)
+        self.driver.find_element(*self.ipt_transaction_pwd).send_keys(Transaction_pwd)
+        self.driver.find_element(*self.ck_confirm).click()
 
