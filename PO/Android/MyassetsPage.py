@@ -14,10 +14,11 @@ class Myassets(Base):
     ipt_currency_search = (By.ID, "et_search")  # 输入查询的币种名称
     get_search_list =(By.ID, "tv_coin_default") # 获取查询的币种名称
     ck_small_amount= (By.ID, "tv_hide")  # 点击隐藏小额币种
-    ck_transaction_account = (By.XPATH, "//android.widget.TextView[@text='交易账户']")  # 切换交易账户
-    ck_contract_account = (By.XPATH, "//android.widget.TextView[@text='合约账户']")  # 切换合约账户
-    ck_currency_account = (By.XPATH, "//android.widget.TextView[@text='法币账户']")  # 切换法币账户
-    ck_wallet_account = (By.XPATH, "//android.widget.TextView[@text='钱包账户']")  # 切换钱包账户
+    ck_spot_account = (By.XPATH, "//android.widget.TextView[@text='币币']")  # 切换币币账户
+    ck_futures_account = (By.XPATH, "//android.widget.TextView[@text='合约账户']")  # 切换合约账户
+    ck_otc_account = (By.XPATH, "//android.widget.TextView[@text='法币账户']")  # 切换法币账户
+    ck_balance_account = (By.XPATH, "//android.widget.TextView[@text='钱包账户']")  # 切换钱包账户
+    ck_symbol = (By.ID, '')  #点击第一个币种
     get_account_txt = (By.ID, "tv_tip1")  # 切换不同账户后，获取对应的文本
 
     #扫码、设置
@@ -129,4 +130,31 @@ class Myassets(Base):
         self.driver.find_element(*self.ipt_veritfy_code).send_keys(code)
         self.driver.find_element(*self.ipt_transaction_pwd).send_keys(Transaction_pwd)
         self.driver.find_element(*self.ck_confirm).click()
+
+    def switch_to_spot(self):
+        '''切换到币币账户'''
+        self.driver.find_element(*self.ck_spot_account).click()
+        time.sleep(1)
+        self.driver.find_element(*self.ck_symbol).click()
+        return self.driver.find_element(*self.get_page_title).text()
+
+    def switch_to_otc(self):
+        '''切换到法币账户'''
+        self.driver.find_element(*self.ck_otc_account).click()
+        time.sleep(1)
+        self.driver.find_element(*self.ck_symbol).click()
+        return self.driver.find_element(*self.get_page_title).text()
+
+    def switch_to_futures(self):
+        '''切换到合约账户'''
+        self.driver.find_element(*self.ck_futures_account).click()
+        time.sleep(1)
+        return self.driver.find_element(*self.get_account_txt).text()
+
+    def switch_to_balance(self):
+        '''切换到钱包账户'''
+        self.driver.find_element(*self.ck_balance_account).click()
+        time.sleep(1)
+        self.driver.find_element(*self.ck_symbol).click()
+        return self.driver.find_element(*self.get_page_title).text()
 

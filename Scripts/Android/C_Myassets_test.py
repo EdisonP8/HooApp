@@ -90,6 +90,46 @@ class TestMyassets:
             self.myassets_page.Allure_save_img("006_assets_transfer_fail")
             raise Exception
 
+    def test_007_Switch_Spot(self):
+        """
+        用例七: 钱包余额切换到币币账户
+        """
+        try:
+            assert "币币账户" == self.myassets_page.switch_to_spot()
+        except (Exception, AssertionError):
+            self.myassets_page.Allure_save_img("007_switch_spot_fail")
+            raise Exception
+
+    def test_008_Switch_Futures(self):
+        """
+        用例八: 币币账户切换合约账户
+        """
+        try:
+            assert "合约账户资产(BTC)" == self.myassets_page.switch_to_futures()
+        except (Exception, AssertionError):
+            self.myassets_page.Allure_save_img("008_switch_futures_fail")
+            raise Exception
+
+    def test_009_Switch_OTC(self):
+        """
+        用例九: 合约账户切换到法币账户
+        """
+        try:
+            assert "法币账户" == self.myassets_page.switch_to_otc()
+        except (Exception, AssertionError):
+            self.myassets_page.Allure_save_img("009_switch_otc_fail")
+            raise Exception
+
+    def test_010_Switch_Balance(self):
+        """
+        用例十: 法币账户切换到余额账户
+        """
+        try:
+            assert "钱包账户" == self.myassets_page.switch_to_balance()
+        except (Exception, AssertionError):
+            self.myassets_page.Allure_save_img("010_switch_balance_fail")
+            raise Exception
+
 
     def teardown_method(self):
         self.driver.quit()
