@@ -1,8 +1,7 @@
 from appium import webdriver
-from PO.Android.RegisterPage import registerPage
-from PO.getconfig import setup_method
-from PO.Base import Base
-from libs.ShareModules import Getdata
+from HooApp.PO.Android.RegisterPage import registerPage
+from HooApp.PO.getconfig import setup_method
+from HooApp.libs.ShareModules import Getdata
 import pytest,time
 
 loginpwd = Getdata('Login_tc','password') # 登陆密码
@@ -26,7 +25,7 @@ class TestRigister:
         :param code:  验证码
         """
         try:
-            mobile =Base.create_CH_mobile()  # 随机生成手机号码
+            mobile =registerPage.create_CH_mobile()  # 随机生成手机号码
             print(mobile)
             self.register_page.getinto_register_page()
             self.register_page.register_by_mobile(mobile)
@@ -44,7 +43,7 @@ class TestRigister:
         :param code:  验证码
         """
         try:
-            email = Base.create_email()  # 随机生成邮箱地址
+            email = registerPage.create_email()  # 随机生成邮箱地址
             self.register_page.getinto_register_page()
             self.register_page.register_by_eamil(email)
             self.register_page.send_loginpwd_paypwd_code(loginpwd, code)
@@ -62,7 +61,7 @@ class TestRigister:
         :param code:  验证码
         """
         try:
-            mobile= Base.create_VE_mobile()  # 随机生成邮箱地址
+            mobile= registerPage.create_VE_mobile()  # 随机生成邮箱地址
             self.register_page.getinto_register_page()
             self.register_page.select_nation_list()
             self.register_page.input_nanme_select_nation(nation)
@@ -78,5 +77,5 @@ class TestRigister:
 
 
 if __name__ == '__main__':
-    pytest.main(['-s', 'C:/Users/HP/Desktop/HooApp/Scripts/Android/A_Register_test.py::TestRigister::test_003_switch_nation_register'])
-    # pytest.main()
+    pytest.main(['-s','C:/Users/HP/Desktop/Auto/HooApp/Scripts/Android/A_Register_test.py'
+                      '::TestRigister::test_003_switch_nation_register'])

@@ -1,4 +1,4 @@
-﻿from PO.Base import Base
+﻿from HooApp.PO.Base import Base
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -8,7 +8,7 @@ class Myassets(Base):
     """
     资产界面的页面元素
     """
-    ck_assets_icon = (By.ID, "iv_5") # 点击我的
+    ck_assets_icon = (By.XPATH, "//android.widget.FrameLayout/android.widget.RelativeLayout[5]") # 点击我的
     ck_btc_assets = (By.ID, "tv_tip_all_property") # 点击加密眼睛
     ck_assets_dist = (By.ID, "v_1")  # 点击进入资产分布
     ipt_currency_search = (By.ID, "et_search")  # 输入查询的币种名称

@@ -1,11 +1,10 @@
-from PO.Base import Base
 from selenium.webdriver.common.by import By
-from PO.Android.LoginPage import LoginPage
+from HooApp.PO.Android.LoginPage import LoginPage
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-class registerPage(Base,LoginPage):
+class registerPage(LoginPage):
     """
     启动页+注册界面的页面元素
     """

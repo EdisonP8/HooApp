@@ -1,8 +1,8 @@
 from appium import webdriver
-from PO.Android.MyassetsPage import Myassets
-from PO.getconfig import setup_method
-from PO.Base import Base
-from libs.ShareModules import Getdata
+from HooApp.PO.Android.MyassetsPage import Myassets
+from HooApp.PO.getconfig import setup_method
+from HooApp.PO.Base import Base
+from HooApp.libs.ShareModules import Getdata
 import pytest,time
 
 Transaction_pwd = Getdata('Login_tc','Transaction_pwd') # 交易密码

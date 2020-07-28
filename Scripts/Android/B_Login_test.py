@@ -1,7 +1,7 @@
 from appium import webdriver
-from PO.Android.LoginPage import LoginPage
-from PO.getconfig import setup_method
-from libs.ShareModules import Getdata
+from HooApp.PO.Android.LoginPage import LoginPage
+from HooApp.PO.getconfig import setup_method
+from HooApp.libs.ShareModules import Getdata
 import pytest,time
 
 email = Getdata('Login_tc','email') # 登录邮箱
@@ -90,5 +90,5 @@ class TestLogin:
 
 
 if __name__ == '__main__':
-    pytest.main(['-s','C:/Users/HP/Desktop/HooApp/Scripts/Android/B_Login_test.py'
+    pytest.main(['-s','C:/Users/HP/Desktop/Auto/HooApp/Scripts/Android/B_Login_test.py'
                       '::TestLogin::test_002_login_by_mobile'])

@@ -1,9 +1,10 @@
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.common.by import By
+from appium.webdriver.common.mobileby import MobileBy
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
-from libs.ShareModules import Getdata
+from appium import webdriver
+from HooApp.libs.ShareModules import Getdata
 import os,time,allure
 import random,string
 
@@ -56,13 +57,24 @@ class Base():
         """滑动到底部"""
         self.driver.find_element(*element).send_keys(Keys.DOWN)
 
+
+    def touch_tap(self, x, y, duration=100):  # 点击坐标  ,x1,x2,y1,y2,duration
+        '''点击坐标'''
+        screen_width = self.driver.get_window_size()['width']  # 获取当前屏幕的宽
+        screen_height = self.driver.get_window_size()['height']  # 获取当前屏幕的高
+        a = (float(x) / screen_width) * screen_width
+        x1 = int(a)
+        b = (float(y) / screen_height) * screen_height
+        y1 = int(b)
+        self.driver.tap([(x1, y1), (x1, y1)], duration)
+
     def wait_element(self,element):
         """
         等待元素出现，默认等待10秒，0.5毫秒扫描一次
         :param element: 元素(部分或者全部元素内容)
         """
 
-        get_error_msg = (By.CSS_SELECTOR, 'p.el-message__content')  # 提示语
+        get_error_msg = (MobileBy.CSS_SELECTOR, 'p.el-message__content')  # 提示语
         try:
             WebDriverWait(self.driver, 10, 0.5).until(
                 EC.text_to_be_present_in_element(get_error_msg, element))
@@ -115,7 +127,7 @@ class Base():
 
             WebDriverWait(self.driver, 10, 0.1).until(
                 EC.presence_of_element_located(toast_loc))
-            print(self.driver.find_element(By.XPATH,toast_loc).text)
+            print(self.driver.find_element(MobileBy.XPATH,toast_loc).text)
             return True
         except:
             print('没有获取到toast信息')

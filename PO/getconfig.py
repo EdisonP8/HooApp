@@ -1,5 +1,5 @@
 ﻿import os
-from libs.ShareModules import Getdata
+from HooApp.libs.ShareModules import Getdata
 
 app = Getdata('app_info','app')
 class Android:
