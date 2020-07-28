@@ -1,5 +1,5 @@
 from appium import webdriver
-from HooApp.PO.Android.LoginPage import LoginPage
+from HooApp.PO.LoginPage import LoginPage
 from HooApp.PO.getconfig import setup_method
 from HooApp.libs.ShareModules import Getdata
 import pytest,time

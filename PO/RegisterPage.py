@@ -1,7 +1,5 @@
 from selenium.webdriver.common.by import By
-from HooApp.PO.Android.LoginPage import LoginPage
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from HooApp.PO.LoginPage import LoginPage
 import time
 
 class registerPage(LoginPage):

@@ -1,7 +1,6 @@
 from appium import webdriver
-from HooApp.PO.Android.MyassetsPage import Myassets
+from HooApp.PO.MyassetsPage import Myassets
 from HooApp.PO.getconfig import setup_method
-from HooApp.PO.Base import Base
 from HooApp.libs.ShareModules import Getdata
 import pytest,time
 
