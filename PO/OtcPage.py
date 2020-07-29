@@ -63,3 +63,28 @@ class OTCPage(Base):
         time.sleep(2)
         action_a = ActionChains(self.driver)
         action_a.move_to_element(self.driver.find_element(*self.ipt_verify_code)).click().send_keys(pwd).perform() #输入交易密码
+
+    ck_entrust_in = (MobileBy.XPATH, "//android.widget.TextView[@text='发布委托']")  # 点击发布委托入口
+    # ck_buy = (MobileBy.ID, "tv_buy")  # 购买
+    # ck_sell = (MobileBy.ID, "tv_sell")  # 出售
+    switch_coin = (MobileBy.ID, "tv_coin")  # 发布委托的币种
+
+    # 固定价格
+    ck_fixed_price = (MobileBy.ID, "tv_fixed_price")  # 固定价格
+    ipt_fixed_price = (MobileBy.XPATH, "//*[@resource-id='com.hufu.qianbao:id/et_danjia']")  # 输入单价
+    ipt_fixed_zuidi = (
+    MobileBy.XPATH, "//android.widget.EditText[@resource-id='com.hufu.qianbao:id/et_zuidi']")  # 输入最低额
+    ipt_fixed_number = (MobileBy.ID, "et_shuliang")  # 请输入购买数量
+    ipt_fixed_amount = (MobileBy.ID, "et_jine")  # 请输入购买金额
+
+    def entrust_in(self):
+        self.driver.find_element(*self.ck_entrust_in).click()
+        self.driver.find_element(*self.ck_sell).click()
+        time.sleep(2)
+        a = self.driver.find_element(*self.ipt_fixed_price)
+        a.clear();a.send_keys(7)
+        self.driver.find_element(*self.ipt_fixed_zuidi).send_keys(100)
+        self.driver.find_element(*self.ipt_fixed_number).send_keys(200)
+        self.move_to_baseOfWindow()
+        time.sleep(2)
+        self.move_to_topOfWindow()

@@ -57,6 +57,13 @@ class Base():
         """滑动到底部"""
         self.driver.find_element(*element).send_keys(Keys.DOWN)
 
+    # 滚动到页面底部
+    def move_to_baseOfWindow(self):
+        self.driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+
+    # 滚动到页面底部
+    def move_to_topOfWindow(self):
+        self.driver.execute_script("window.scrollTo(document.body.scrollHeight,0)")
 
     def touch_tap(self, x, y, duration=100):  # 点击坐标  ,x1,x2,y1,y2,duration
         '''点击坐标'''
