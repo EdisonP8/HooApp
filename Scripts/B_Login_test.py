@@ -9,6 +9,7 @@ mobile = Getdata('Login_tc','mobile') # 登录手机号
 loginpwd = Getdata('Login_tc','password') # 登陆密码
 code = Getdata('Login_tc','code')  # 验证码
 
+@pytest.mark.skip
 class TestLogin:
     """
     登录的测试用例

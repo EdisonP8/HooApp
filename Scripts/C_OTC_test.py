@@ -7,7 +7,7 @@ import pytest,time
 
 Transaction_pwd = Getdata('Login_tc','Transaction_pwd') # 交易密码
 code = Getdata('Login_tc','code')  # 验证码
-
+@pytest.mark.skip
 class TestOTC:
     """
     法币的测试用例

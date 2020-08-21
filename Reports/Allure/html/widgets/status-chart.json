@@ -1,0 +1,31 @@
+[ {
+  "uid" : "2fd01159728c7637",
+  "name" : "test_001_mobile_register",
+  "time" : {
+    "start" : 1597987992037,
+    "stop" : 1597987992037,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "405fcb0f21de7d03",
+  "name" : "test_003_switch_nation_register",
+  "time" : {
+    "start" : 1597988028909,
+    "stop" : 1597988028909,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "59c908d867501c19",
+  "name" : "test_002_email_register",
+  "time" : {
+    "start" : 1597988010603,
+    "stop" : 1597988010603,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

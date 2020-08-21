@@ -1,0 +1,57 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FADF485C88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "children" : [ {
+        "name" : "test_001_mobile_register",
+        "uid" : "2fd01159728c7637",
+        "parentUid" : "e9eaadc50816f64ae6e66e71eda6d593",
+        "status" : "broken",
+        "time" : {
+          "start" : 1597987992037,
+          "stop" : 1597987992037,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e9eaadc50816f64ae6e66e71eda6d593"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FAE006FE88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "children" : [ {
+        "name" : "test_002_email_register",
+        "uid" : "59c908d867501c19",
+        "parentUid" : "944f56051e5d2bd51533ac412cf681c8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1597988010603,
+          "stop" : 1597988010603,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "944f56051e5d2bd51533ac412cf681c8"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FADF72DC08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "children" : [ {
+        "name" : "test_003_switch_nation_register",
+        "uid" : "405fcb0f21de7d03",
+        "parentUid" : "37707ab42f8d8d99cf7843597fd26124",
+        "status" : "broken",
+        "time" : {
+          "start" : 1597988028909,
+          "stop" : 1597988028909,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "37707ab42f8d8d99cf7843597fd26124"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

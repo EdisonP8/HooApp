@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-76FVQSK",
+    "children" : [ {
+      "name" : "37792-MainThread",
+      "children" : [ {
+        "name" : "test_001_mobile_register",
+        "uid" : "2fd01159728c7637",
+        "parentUid" : "6407b55198b433e504f323b2c4d3f590",
+        "status" : "broken",
+        "time" : {
+          "start" : 1597987992037,
+          "stop" : 1597987992037,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_003_switch_nation_register",
+        "uid" : "405fcb0f21de7d03",
+        "parentUid" : "6407b55198b433e504f323b2c4d3f590",
+        "status" : "broken",
+        "time" : {
+          "start" : 1597988028909,
+          "stop" : 1597988028909,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_002_email_register",
+        "uid" : "59c908d867501c19",
+        "parentUid" : "6407b55198b433e504f323b2c4d3f590",
+        "status" : "broken",
+        "time" : {
+          "start" : 1597988010603,
+          "stop" : 1597988010603,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6407b55198b433e504f323b2c4d3f590"
+    } ],
+    "uid" : "3b492c57cbff3c25a01376dbdccf3ad9"
+  } ]
+}
