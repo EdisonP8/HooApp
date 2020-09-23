@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Test_Cases.TestMyCenter",
+    "children" : [ {
+      "name" : "test_my_assets",
+      "children" : [ {
+        "name" : "TestMyassets",
+        "children" : [ {
+          "name" : "test_Balance_Switch_Spot",
+          "uid" : "e94ce3dbc45ce396",
+          "parentUid" : "3525568bf09c3c06df71401f3ab35f47",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598609692893,
+            "stop" : 1598609714281,
+            "duration" : 21388
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3525568bf09c3c06df71401f3ab35f47"
+      } ],
+      "uid" : "441e989a1815cdd1b91fcc25f0203c54"
+    } ],
+    "uid" : "0f70c88f44c3aba4819aaba980c1c29c"
+  } ]
+}

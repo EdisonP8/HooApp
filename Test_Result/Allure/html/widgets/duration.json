@@ -1,0 +1,11 @@
+[ {
+  "uid" : "e94ce3dbc45ce396",
+  "name" : "test_Balance_Switch_Spot",
+  "time" : {
+    "start" : 1598609692893,
+    "stop" : 1598609714281,
+    "duration" : 21388
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

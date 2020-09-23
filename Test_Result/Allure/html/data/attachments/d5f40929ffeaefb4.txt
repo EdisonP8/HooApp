@@ -1,0 +1,16 @@
+INFO     HooAPITest:read_config.py:82 等待元素('xpath', "//android.widget.TextView[@text='登录/注册']")可见
+INFO     HooAPITest:read_config.py:82 截取屏幕
+INFO     HooAPITest:read_config.py:82 截取屏幕完成，存放地址在C:\Users\HP\Desktop\Auto\HooApp\Test_Result/screenshots\08281814_首页_登陆按钮是否存在.png
+INFO     HooAPITest:read_config.py:82 Message:
+INFO     HooAPITest:read_config.py:82 等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")可见
+INFO     HooAPITest:read_config.py:82 等待结束，等待时长为: 1秒
+INFO     HooAPITest:read_config.py:82 查找元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+INFO     HooAPITest:read_config.py:82 点击元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+INFO     HooAPITest:read_config.py:82 等待元素('xpath', "//android.widget.TextView[@text='币币账户']")可见
+INFO     HooAPITest:read_config.py:82 等待结束，等待时长为: 2秒
+INFO     HooAPITest:read_config.py:82 查找元素('xpath', "//android.widget.TextView[@text='币币账户']")
+INFO     HooAPITest:read_config.py:82 点击元素('xpath', "//android.widget.TextView[@text='币币账户']")
+INFO     HooAPITest:read_config.py:82 等待元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/myRecycler']/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]")可见
+INFO     HooAPITest:read_config.py:82 等待结束，等待时长为: 1秒
+INFO     HooAPITest:read_config.py:82 查找元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/myRecycler']/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]")
+INFO     HooAPITest:read_config.py:82 点击元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/myRecycler']/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]")

@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Aug 28 18:14:52 CST 2020","Fri Aug 28 18:15:14 CST 2020","21388","Test_Cases.TestMyCenter","test_my_assets","TestMyassets","","","test_Balance_Switch_Spot",""

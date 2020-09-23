@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-76FVQSK",
+    "children" : [ {
+      "name" : "79548-MainThread",
+      "children" : [ {
+        "name" : "test_Balance_Switch_Spot",
+        "uid" : "e94ce3dbc45ce396",
+        "parentUid" : "9a4703283b30390ff3b0bf27d738bf0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598609692893,
+          "stop" : 1598609714281,
+          "duration" : 21388
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a4703283b30390ff3b0bf27d738bf0d"
+    } ],
+    "uid" : "3b492c57cbff3c25a01376dbdccf3ad9"
+  } ]
+}

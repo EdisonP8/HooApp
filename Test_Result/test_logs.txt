@@ -1,0 +1,217 @@
+2020-08-28 17:30:45,606-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.TextView[@text='登录/注册']")可见
+2020-08-28 17:31:16,721-INFO-read_config.py-HooAPITest-日志信息:截取屏幕
+2020-08-28 17:31:17,374-INFO-read_config.py-HooAPITest-日志信息:截取屏幕完成，存放地址在C:\Users\HP\Desktop\Auto\HooApp\Test_Result/screenshots\08281731_首页_登陆按钮是否存在.png
+2020-08-28 17:31:17,377-INFO-read_config.py-HooAPITest-日志信息:Message: 
+
+2020-08-28 17:31:17,381-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")可见
+2020-08-28 17:31:21,007-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 3秒
+2020-08-28 17:31:21,010-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:31:24,973-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:31:26,457-INFO-read_config.py-HooAPITest-日志信息:点击元素失败........
+2020-08-28 17:31:26,460-INFO-read_config.py-HooAPITest-日志信息:截取屏幕
+2020-08-28 17:31:27,110-INFO-read_config.py-HooAPITest-日志信息:截取屏幕完成，存放地址在C:\Users\HP\Desktop\Auto\HooApp\Test_Result/screenshots\08281731_进入我的页面.png
+2020-08-28 17:38:00,401-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.TextView[@text='登录/注册']")可见
+2020-08-28 17:38:08,631-INFO-read_config.py-HooAPITest-日志信息:截取屏幕
+2020-08-28 17:40:55,717-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.TextView[@text='登录/注册']")可见
+2020-08-28 17:41:26,147-INFO-read_config.py-HooAPITest-日志信息:截取屏幕
+2020-08-28 17:41:26,826-INFO-read_config.py-HooAPITest-日志信息:截取屏幕完成，存放地址在C:\Users\HP\Desktop\Auto\HooApp\Test_Result/screenshots\08281741_首页_登陆按钮是否存在.png
+2020-08-28 17:41:26,828-INFO-read_config.py-HooAPITest-日志信息:Message: 
+
+2020-08-28 17:41:26,832-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")可见
+2020-08-28 17:41:30,770-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 3秒
+2020-08-28 17:41:30,773-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:41:34,581-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:41:36,027-INFO-read_config.py-HooAPITest-日志信息:点击元素失败........
+2020-08-28 17:41:36,030-INFO-read_config.py-HooAPITest-日志信息:截取屏幕
+2020-08-28 17:41:36,666-INFO-read_config.py-HooAPITest-日志信息:截取屏幕完成，存放地址在C:\Users\HP\Desktop\Auto\HooApp\Test_Result/screenshots\08281741_进入我的页面.png
+2020-08-28 17:43:43,286-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.TextView[@text='登录/注册']")可见
+2020-08-28 17:44:14,353-INFO-read_config.py-HooAPITest-日志信息:截取屏幕
+2020-08-28 17:44:15,027-INFO-read_config.py-HooAPITest-日志信息:截取屏幕完成，存放地址在C:\Users\HP\Desktop\Auto\HooApp\Test_Result/screenshots\08281744_首页_登陆按钮是否存在.png
+2020-08-28 17:44:15,031-INFO-read_config.py-HooAPITest-日志信息:Message: 
+
+2020-08-28 17:44:15,035-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")可见
+2020-08-28 17:44:17,331-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 2秒
+2020-08-28 17:44:17,334-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:44:21,067-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:44:24,206-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.TextView[@text='币币']")可见
+2020-08-28 17:44:54,570-INFO-read_config.py-HooAPITest-日志信息:等待元素失败.....
+2020-08-28 17:44:54,578-INFO-read_config.py-HooAPITest-日志信息:截取屏幕
+2020-08-28 17:44:55,309-INFO-read_config.py-HooAPITest-日志信息:截取屏幕完成，存放地址在C:\Users\HP\Desktop\Auto\HooApp\Test_Result/screenshots\08281744_切换到币币账户.png
+2020-08-28 17:46:36,137-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.TextView[@text='登录/注册']")可见
+2020-08-28 17:47:08,110-INFO-read_config.py-HooAPITest-日志信息:截取屏幕
+2020-08-28 17:47:08,776-INFO-read_config.py-HooAPITest-日志信息:截取屏幕完成，存放地址在C:\Users\HP\Desktop\Auto\HooApp\Test_Result/screenshots\08281747_首页_登陆按钮是否存在.png
+2020-08-28 17:47:08,778-INFO-read_config.py-HooAPITest-日志信息:Message: 
+
+2020-08-28 17:47:08,781-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")可见
+2020-08-28 17:47:10,810-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 2秒
+2020-08-28 17:47:10,813-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:47:14,746-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:47:17,361-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.TextView[@text='币币账户']")可见
+2020-08-28 17:47:18,693-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 1秒
+2020-08-28 17:47:18,695-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.TextView[@text='币币账户']")
+2020-08-28 17:47:22,709-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.TextView[@text='币币账户']")
+2020-08-28 17:47:23,020-INFO-read_config.py-HooAPITest-日志信息:等待元素('id', '')可见
+2020-08-28 17:47:23,044-INFO-read_config.py-HooAPITest-日志信息:等待元素失败.....
+2020-08-28 17:47:23,046-INFO-read_config.py-HooAPITest-日志信息:截取屏幕
+2020-08-28 17:47:23,734-INFO-read_config.py-HooAPITest-日志信息:截取屏幕完成，存放地址在C:\Users\HP\Desktop\Auto\HooApp\Test_Result/screenshots\08281747_切换到币币账户.png
+2020-08-28 17:51:54,417-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.TextView[@text='登录/注册']")可见
+2020-08-28 17:52:26,712-INFO-read_config.py-HooAPITest-日志信息:截取屏幕
+2020-08-28 17:52:27,393-INFO-read_config.py-HooAPITest-日志信息:截取屏幕完成，存放地址在C:\Users\HP\Desktop\Auto\HooApp\Test_Result/screenshots\08281752_首页_登陆按钮是否存在.png
+2020-08-28 17:52:27,396-INFO-read_config.py-HooAPITest-日志信息:Message: 
+
+2020-08-28 17:52:27,513-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")可见
+2020-08-28 17:52:31,537-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 4秒
+2020-08-28 17:52:31,546-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:52:38,437-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:52:42,956-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.TextView[@text='币币账户']")可见
+2020-08-28 17:52:44,757-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 1秒
+2020-08-28 17:52:44,761-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.TextView[@text='币币账户']")
+2020-08-28 17:52:48,202-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.TextView[@text='币币账户']")
+2020-08-28 17:52:48,314-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/myRecycler']/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]")可见
+2020-08-28 17:52:50,515-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 2秒
+2020-08-28 17:52:50,518-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/myRecycler']/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]")
+2020-08-28 17:52:54,367-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/myRecycler']/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]")
+2020-08-28 17:54:53,552-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.TextView[@text='登录/注册']")可见
+2020-08-28 17:55:26,728-INFO-read_config.py-HooAPITest-日志信息:截取屏幕
+2020-08-28 17:55:27,403-INFO-read_config.py-HooAPITest-日志信息:截取屏幕完成，存放地址在C:\Users\HP\Desktop\Auto\HooApp\Test_Result/screenshots\08281755_首页_登陆按钮是否存在.png
+2020-08-28 17:55:27,406-INFO-read_config.py-HooAPITest-日志信息:Message: 
+
+2020-08-28 17:55:27,410-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")可见
+2020-08-28 17:55:31,380-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 3秒
+2020-08-28 17:55:31,382-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:55:35,125-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:55:38,250-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.TextView[@text='币币账户']")可见
+2020-08-28 17:55:40,016-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 1秒
+2020-08-28 17:55:40,019-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.TextView[@text='币币账户']")
+2020-08-28 17:55:43,917-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.TextView[@text='币币账户']")
+2020-08-28 17:55:45,561-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/myRecycler']/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]")可见
+2020-08-28 17:55:46,469-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 0秒
+2020-08-28 17:55:46,471-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/myRecycler']/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]")
+2020-08-28 17:55:49,334-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/myRecycler']/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]")
+2020-08-28 17:55:52,868-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")可见
+2020-08-28 17:55:56,425-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 3秒
+2020-08-28 17:55:56,427-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:55:59,324-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:55:59,953-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.TextView[@text='合约账户']")可见
+2020-08-28 17:56:01,120-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 1秒
+2020-08-28 17:56:01,123-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.TextView[@text='合约账户']")
+2020-08-28 17:56:04,351-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.TextView[@text='合约账户']")
+2020-08-28 17:56:07,294-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")可见
+2020-08-28 17:56:08,469-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 1秒
+2020-08-28 17:56:08,472-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:56:12,154-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:56:12,604-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.TextView[@text='法币账户']")可见
+2020-08-28 17:56:14,444-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 1秒
+2020-08-28 17:56:14,448-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.TextView[@text='法币账户']")
+2020-08-28 17:56:17,282-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.TextView[@text='法币账户']")
+2020-08-28 17:56:17,491-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/myRecycler']/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]")可见
+2020-08-28 17:56:19,034-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 1秒
+2020-08-28 17:56:19,037-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/myRecycler']/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]")
+2020-08-28 17:56:22,400-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/myRecycler']/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]")
+2020-08-28 17:56:25,199-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")可见
+2020-08-28 17:56:27,618-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 2秒
+2020-08-28 17:56:27,621-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:56:30,436-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:56:31,031-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.TextView[@text='币币账户']")可见
+2020-08-28 17:56:33,617-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 2秒
+2020-08-28 17:56:33,620-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.TextView[@text='币币账户']")
+2020-08-28 17:56:37,492-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.TextView[@text='币币账户']")
+2020-08-28 17:56:38,408-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/myRecycler']/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]")可见
+2020-08-28 17:56:39,529-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 1秒
+2020-08-28 17:56:39,532-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/myRecycler']/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]")
+2020-08-28 17:56:43,441-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/myRecycler']/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]")
+2020-08-28 17:56:48,015-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")可见
+2020-08-28 17:57:18,312-INFO-read_config.py-HooAPITest-日志信息:等待元素失败.....
+2020-08-28 17:57:18,315-INFO-read_config.py-HooAPITest-日志信息:截取屏幕
+2020-08-28 17:57:19,350-INFO-read_config.py-HooAPITest-日志信息:截取屏幕完成，存放地址在C:\Users\HP\Desktop\Auto\HooApp\Test_Result/screenshots\08281757_进入我的页面.png
+2020-08-28 17:57:19,389-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")可见
+2020-08-28 17:57:50,058-INFO-read_config.py-HooAPITest-日志信息:等待元素失败.....
+2020-08-28 17:57:50,061-INFO-read_config.py-HooAPITest-日志信息:截取屏幕
+2020-08-28 17:57:51,111-INFO-read_config.py-HooAPITest-日志信息:截取屏幕完成，存放地址在C:\Users\HP\Desktop\Auto\HooApp\Test_Result/screenshots\08281757_进入我的页面.png
+2020-08-28 17:57:51,147-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")可见
+2020-08-28 17:58:03,696-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 12秒
+2020-08-28 17:58:03,699-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:58:06,506-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:58:07,206-INFO-read_config.py-HooAPITest-日志信息:等待元素('id', 'tv_hide')可见
+2020-08-28 17:58:07,477-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 0秒
+2020-08-28 17:58:07,481-INFO-read_config.py-HooAPITest-日志信息:查找元素('id', 'tv_hide')
+2020-08-28 17:58:10,536-INFO-read_config.py-HooAPITest-日志信息:点击元素('id', 'tv_hide')
+2020-08-28 17:58:10,575-INFO-read_config.py-HooAPITest-日志信息:等待元素('id', 'iv_hide')可见
+2020-08-28 17:58:12,717-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 2秒
+2020-08-28 17:58:12,719-INFO-read_config.py-HooAPITest-日志信息:查找元素('id', 'iv_hide')
+2020-08-28 17:58:14,899-INFO-read_config.py-HooAPITest-日志信息:点击元素('id', 'iv_hide')
+2020-08-28 17:58:17,033-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.TextView[@resource-id='com.hufu.qianbao:id/tv_right']")可见
+2020-08-28 17:58:17,137-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 0秒
+2020-08-28 17:58:17,140-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.TextView[@resource-id='com.hufu.qianbao:id/tv_right']")
+2020-08-28 17:58:19,240-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.TextView[@resource-id='com.hufu.qianbao:id/tv_right']")
+2020-08-28 17:58:19,281-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")可见
+2020-08-28 17:58:22,404-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 3秒
+2020-08-28 17:58:22,407-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:58:25,395-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 17:58:25,425-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/ll_user_info']")可见
+2020-08-28 17:58:26,624-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 1秒
+2020-08-28 17:58:26,627-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/ll_user_info']")
+2020-08-28 17:58:30,310-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/ll_user_info']")
+2020-08-28 17:58:30,740-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.ImageView[@resource-id='com.hufu.qianbao:id/iv_user_icon']")
+2020-08-28 17:58:33,092-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.ImageView[@resource-id='com.hufu.qianbao:id/iv_user_icon']")
+2020-08-28 17:58:33,618-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.support.v7.widget.RecyclerView[@resource-id='com.hufu.qianbao:id/picture_recycler']/android.widget.RelativeLayout[2]/android.widget.LinearLayout[1]/android.widget.TextView[1]")可见
+2020-08-28 17:58:35,585-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 1秒
+2020-08-28 17:58:35,590-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.support.v7.widget.RecyclerView[@resource-id='com.hufu.qianbao:id/picture_recycler']/android.widget.RelativeLayout[2]/android.widget.LinearLayout[1]/android.widget.TextView[1]")
+2020-08-28 17:58:38,170-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.support.v7.widget.RecyclerView[@resource-id='com.hufu.qianbao:id/picture_recycler']/android.widget.RelativeLayout[2]/android.widget.LinearLayout[1]/android.widget.TextView[1]")
+2020-08-28 17:58:38,200-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/picture_tv_ok']")
+2020-08-28 17:58:40,915-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/picture_tv_ok']")
+2020-08-28 17:58:40,941-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/menu_crop']")可见
+2020-08-28 17:58:42,723-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 1秒
+2020-08-28 17:58:42,726-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/menu_crop']")
+2020-08-28 17:58:44,844-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/menu_crop']")
+2020-08-28 17:58:47,201-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")可见
+2020-08-28 17:59:17,665-INFO-read_config.py-HooAPITest-日志信息:等待元素失败.....
+2020-08-28 17:59:17,668-INFO-read_config.py-HooAPITest-日志信息:截取屏幕
+2020-08-28 17:59:18,273-INFO-read_config.py-HooAPITest-日志信息:截取屏幕完成，存放地址在C:\Users\HP\Desktop\Auto\HooApp\Test_Result/screenshots\08281759_进入我的页面.png
+2020-08-28 17:59:18,303-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")可见
+2020-08-28 18:00:26,060-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.TextView[@text='登录/注册']")可见
+2020-08-28 18:00:58,505-INFO-read_config.py-HooAPITest-日志信息:截取屏幕
+2020-08-28 18:00:59,198-INFO-read_config.py-HooAPITest-日志信息:截取屏幕完成，存放地址在C:\Users\HP\Desktop\Auto\HooApp\Test_Result/screenshots\08281800_首页_登陆按钮是否存在.png
+2020-08-28 18:00:59,200-INFO-read_config.py-HooAPITest-日志信息:Message: 
+
+2020-08-28 18:00:59,214-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")可见
+2020-08-28 18:01:01,136-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 1秒
+2020-08-28 18:01:01,140-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 18:01:04,401-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 18:01:07,414-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/ll_user_info']")可见
+2020-08-28 18:01:08,932-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 1秒
+2020-08-28 18:01:08,935-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/ll_user_info']")
+2020-08-28 18:01:11,843-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/ll_user_info']")
+2020-08-28 18:01:11,990-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/ll_username']")可见
+2020-08-28 18:01:13,354-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 1秒
+2020-08-28 18:01:13,358-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/ll_username']")
+2020-08-28 18:01:15,990-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/ll_username']")
+2020-08-28 18:01:16,023-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.ImageView[@resource-id='com.hufu.qianbao:id/iv_reset']")可见
+2020-08-28 18:01:17,060-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 1秒
+2020-08-28 18:01:17,063-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.ImageView[@resource-id='com.hufu.qianbao:id/iv_reset']")
+2020-08-28 18:01:19,356-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.ImageView[@resource-id='com.hufu.qianbao:id/iv_reset']")
+2020-08-28 18:01:19,394-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.EditText[@resource-id='com.hufu.qianbao:id/et_modify_nickname']")
+2020-08-28 18:01:21,926-INFO-read_config.py-HooAPITest-日志信息:向元素('xpath', "//android.widget.EditText[@resource-id='com.hufu.qianbao:id/et_modify_nickname']")输入文本: 币圈小喽啰
+2020-08-28 18:01:22,501-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.TextView[@resource-id='com.hufu.qianbao:id/tv_save']")
+2020-08-28 18:01:24,601-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.TextView[@resource-id='com.hufu.qianbao:id/tv_save']")
+2020-08-28 18:01:26,779-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.TextView[@resource-id='com.hufu.qianbao:id/tv_user_id']")可见
+2020-08-28 18:01:26,949-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 0秒
+2020-08-28 18:01:26,952-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.TextView[@resource-id='com.hufu.qianbao:id/tv_user_id']")
+2020-08-28 18:01:29,112-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.TextView[@resource-id='com.hufu.qianbao:id/tv_user_id']")
+2020-08-28 18:14:19,464-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.TextView[@text='登录/注册']")可见
+2020-08-28 18:14:52,049-INFO-read_config.py-HooAPITest-日志信息:截取屏幕
+2020-08-28 18:14:52,738-INFO-read_config.py-HooAPITest-日志信息:截取屏幕完成，存放地址在C:\Users\HP\Desktop\Auto\HooApp\Test_Result/screenshots\08281814_首页_登陆按钮是否存在.png
+2020-08-28 18:14:52,741-INFO-read_config.py-HooAPITest-日志信息:Message: 
+
+2020-08-28 18:14:52,893-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")可见
+2020-08-28 18:14:54,670-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 1秒
+2020-08-28 18:14:54,672-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 18:14:57,633-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.LinearLayout[@resource-id='com.hufu.qianbao:id/tabbar']/android.widget.RelativeLayout[5]")
+2020-08-28 18:14:59,332-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//android.widget.TextView[@text='币币账户']")可见
+2020-08-28 18:15:02,228-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 2秒
+2020-08-28 18:15:02,230-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//android.widget.TextView[@text='币币账户']")
+2020-08-28 18:15:06,092-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//android.widget.TextView[@text='币币账户']")
+2020-08-28 18:15:06,810-INFO-read_config.py-HooAPITest-日志信息:等待元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/myRecycler']/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]")可见
+2020-08-28 18:15:08,331-INFO-read_config.py-HooAPITest-日志信息:等待结束，等待时长为: 1秒
+2020-08-28 18:15:08,333-INFO-read_config.py-HooAPITest-日志信息:查找元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/myRecycler']/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]")
+2020-08-28 18:15:11,739-INFO-read_config.py-HooAPITest-日志信息:点击元素('xpath', "//*[@resource-id='com.hufu.qianbao:id/myRecycler']/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]")
