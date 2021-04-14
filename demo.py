@@ -18,3 +18,4 @@ driver.find_element_by_id("com.hoo.qianbao:id/iv_property_setting").click()
 sleep(5)
 input('**** Press to quit..')
 driver.quit()
+
